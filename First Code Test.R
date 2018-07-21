@@ -20,6 +20,6 @@ for(i in 1:1000){
 
 #summary(dfmeans)
 dfmeans <- as.data.frame(dfmeans)
-dfmeans.append
+#dfmeans.append
 colnames(dfmeans)
 ggplot(dfmeans, aes(x=dfmeans)) + geom_histogram(binwidth = 5)
